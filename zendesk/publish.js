@@ -73,7 +73,7 @@ async function publish() {
         data = data.replace(linksRegex, linksMap[match[5]]);
         match = linksRegex.exec(data);
       }
-      const staticAssetsUrl = 'https://github.com/JupiterOne/docs/blob/master/assets/$2.$3?raw=true';
+      const staticAssetsUrl = 'https://github.com/pkutaj/Hedwig/blob/master/assets/$2.$3?raw=true';
       const anchorIcon = `<img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/link.svg?sanitize=true" width="12" height="12">`;
       const anchoredHeader = `<h2 id="$1">$2 <a href="#$1">${anchorIcon}</a></a></h2>`;
       const html = converter.makeHtml(data)
