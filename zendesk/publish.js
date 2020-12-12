@@ -17,8 +17,8 @@ const converter = new showdown.Converter(
 );
 
 const baseUrl = 'https://snowplow.zendesk.com/api/v2/help_center/';
-const user = 'pavol@snowplowanalytics.com/token';
-const pass = '7elCpPNAe7dOcKoqIrP3GEeWC7KYpUrk5J3A7xvq';
+const user = process.env.ZENDESK_USER || 'pavol@snowplowanalytics.com/token';
+const pass = process.env.ZENDESK_PASS;
 const zendesk_managers_agents_group_id = 262569;
 
 const request = rp.defaults({
