@@ -1,0 +1,6 @@
+{
+  "linksMap": {
+    "configure-integrations": "https://support.snowplowanalytics.com/hc/en-us/articles/360016477058"
+  },
+  "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((configure-integrations))(\\.md)"
+}

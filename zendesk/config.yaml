@@ -1,0 +1,9 @@
+sections:
+  - name: FAQ
+    id: 201803215
+    articles:
+      - id: 360016477058
+        title: 1/9 Configure Integrations
+        file: ../guides/configure-integrations.md
+        hash: mWvWVYqcARamQiFnbWW6RbJ0UsW0OiTXvLTSNphwWoY=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016477058'
