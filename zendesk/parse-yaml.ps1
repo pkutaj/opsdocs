@@ -56,6 +56,8 @@ function publish-toZendesk {
     $scriptFolder = ".\"
     $scriptFile = "publish.js"
     Start-Process node $scriptFile -WorkingDirectory $scriptFolder 
+    cd..
+    git add . && git commit -m "images updates" && git push
     Write-Host "new opsdocs pushed to zendesk"
 }
 
