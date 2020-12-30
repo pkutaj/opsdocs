@@ -1,13 +1,15 @@
+#aim: script that is used as entry-point for creating a KB article for Snowplow Analytics and offers to push all new/modified docs to Zendesk
+
 $intro = @"
 
           %%%%%%%%%%%%%%        
         %%%%           %%       
-       %%  %%/          %%%     
-     #%(     %%           %%  
+       %%  %%/          %%%     SNOWPLOW'S OPSDOCS 
+     #%(     %%           %%    ~~~~~~~~~~~~~~~~~~~
     %%        %%/          %%   
-   %%          /%%%%%%%%%%%%%   SNOWPLOW'S OPSDOCS 
-    %%.       %%,          %%   ~~~~~~~~~~~~~~~~~~~
-     (%%    .%%          ,%% 
+   %%          /%%%%%%%%%%%%%   CREATE NEW ONE OR  
+    %%.       %%,          %%   ... PUSH THEM ALL TO ZD 
+     (%%    .%%          ,%%    
        %%. %%*          %%(  
         %%%%           %%    
           %%%%%%%%%%%%%% 
@@ -21,15 +23,15 @@ function convertTo-fileName ($docTitle) {
 }
 function create-NewDoc($filename) {
     #aim: populate the newly created file with a template
-    $templatePath = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk\template.md"
-    $filePath = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\demo\$filename"
+    $templatePath = ".\template.md"
+    $filePath = "..\demo\$filename"
     $template = Get-Content $templatePath
     Set-Content $filePath -Value  $template
     Invoke-Item $filePath
 }
 function update-configFile($docTitle, $fileName) {
     #aim: create a new node in the config.yaml and populate it with doc title and file path
-    $conf = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk\config.yaml"
+    $conf = ".\config.yaml"
     $existingDocs = gc $conf | ConvertFrom-Yaml -Ordered
     $newDoc = @([ordered]@{
             id      = $null; 
@@ -50,22 +52,24 @@ function update-configFile($docTitle, $fileName) {
 }
 
 function publish-toZendesk {
-    $scriptFolder = "c:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk\"
+    #aim: run the publish.js script that publishes new and updated docs to zendesk
+    $scriptFolder = ".\"
     $scriptFile = "publish.js"
     Start-Process node $scriptFile -WorkingDirectory $scriptFolder 
     Write-Host "new opsdocs pushed to zendesk"
 }
 
 Write-Host $intro
-$userSelection = Read-Host "PLEASE SELECT: CREATE [1] OR PUBLISH [2]"
+$userSelection = Read-Host "ENTER TITLE OR WRITE 'PUSH' TO SEND TO ZENDESK"
 switch ($userSelection) {
-    1 { 
-        $docTitle = Read-Host "Title"
+    "push" { 
+        publish-toZendesk
+    }
+    default { 
+        $docTitle = $userSelection
         $fileName = convertTo-fileName -docTitle $docTitle
         create-NewDoc -filename $fileName
         update-configFile -docTitle $docTitle -fileName $fileName
     }
-    2 { 
-        publish-toZendesk
-    }
+    
 }

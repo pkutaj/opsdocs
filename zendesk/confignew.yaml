@@ -13,7 +13,7 @@ sections:
     hash: +fpY9N+qCjR0C5KW4mnsiag7f/soIIxOirQ6D5YWz4Y=
     webLink: https://support.snowplowanalytics.com/hc/en-us/articles/360016719917
   - id: 
-    title: This is a Demo Image
-    file: ../demo/This-is-a-Demo-Image.md
+    title: Resize Redshift
+    file: ../demo/Resize-Redshift.md
     hash: 
-    webLink: 
+    weblink: 

@@ -1,6 +1,7 @@
 {
   "linksMap": {
-    "configure-integrations": "https://support.snowplowanalytics.com/hc/en-us/articles/360016477058"
+    "ssl-certificates-and-collector": "https://support.snowplowanalytics.com/hc/en-us/articles/360016703297",
+    "bump-elasticsearch": "https://support.snowplowanalytics.com/hc/en-us/articles/360016719917"
   },
-  "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((configure-integrations))(\\.md)"
+  "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((..\\/demo\\/ssl-certificates-and-collector)|(..\\/demo\\/bump-elasticsearch))(\\.md)"
 }
