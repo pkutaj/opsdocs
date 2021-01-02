@@ -50,12 +50,14 @@ function publish-toZendesk {
     #aim: run the publish.js script that publishes new and updated docs to zendesk
     $scriptFolder = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk"
     $scriptFile = "publish.js"
-    Start-Process node $scriptFile -WorkingDirectory $scriptFolder 
     cd..
     git add . 
     git commit -m "images updates" 
     git push
-    Write-Host "new opsdocs pushed to zendesk"
+    Start-Process node $scriptFile -WorkingDirectory $scriptFolder 
+    Write-Host "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" -foregroundcolor Darkcyan
+    Write-Host "new opsdocs pushed to zendesk" -foregroundcolor Darkcyan
+    Write-Host "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" -foregroundcolor Darkcyan
 }
 
 Write-Host $intro
