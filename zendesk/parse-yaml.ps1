@@ -1,19 +1,14 @@
 #aim: script that is used as entry-point for creating a KB article for Snowplow Analytics and offers to push all new/modified docs to Zendesk
 
-$intro = @"
+$intro = @"      
 
-          %%%%%%%%%%%%%%        
-        %%%%           %%       
-       %%  %%/          %%%     SNOWPLOW'S OPSDOCS 
-     #%(     %%           %%    ~~~~~~~~~~~~~~~~~~~
-    %%        %%/          %%   
-   %%          /%%%%%%%%%%%%%   CREATE NEW ONE OR  
-    %%.       %%,          %%   ... PUSH THEM ALL TO ZD 
-     (%%    .%%          ,%%    
-       %%. %%*          %%(  
-        %%%%           %%    
-          %%%%%%%%%%%%%% 
-
+  ~~~~~~~~~~~~~~~~~~~
+  SNOWPLOW'S OPSDOCS 
+  ~~~~~~~~~~~~~~~~~~~
+  
+  CREATE NEW ONE OR  
+  ... PUSH THEM ALL TO ZD    
+  
 "@
 
 function convertTo-fileName ($docTitle) {
@@ -31,7 +26,7 @@ function create-NewDoc($filename) {
 }
 function update-configFile($docTitle, $fileName) {
     #aim: create a new node in the config.yaml and populate it with doc title and file path
-    $conf = ".\config.yaml"
+    $conf = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk\config.yaml"
     $existingDocs = gc $conf | ConvertFrom-Yaml -Ordered
     $newDoc = @([ordered]@{
             id      = $null; 
@@ -53,11 +48,13 @@ function update-configFile($docTitle, $fileName) {
 
 function publish-toZendesk {
     #aim: run the publish.js script that publishes new and updated docs to zendesk
-    $scriptFolder = ".\"
+    $scriptFolder = "C:\Users\Admin\Documents\workspace\SNOW\opsdocs\zendesk"
     $scriptFile = "publish.js"
     Start-Process node $scriptFile -WorkingDirectory $scriptFolder 
     cd..
-    git add . && git commit -m "images updates" && git push
+    git add . 
+    git commit -m "images updates" 
+    git push
     Write-Host "new opsdocs pushed to zendesk"
 }
 
@@ -75,3 +72,4 @@ switch ($userSelection) {
     }
     
 }
+Pause
