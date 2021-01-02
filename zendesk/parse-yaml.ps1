@@ -43,7 +43,7 @@ function update-configFile($docTitle, $fileName) {
     $existingDocs.sections[0].add('articles', $articlesHelper)
     
     ConvertTo-Yaml $existingDocs -OutFile $conf -Force
-    Invoke-Item $conf
+    #Invoke-Item $conf
 }
 
 function publish-toZendesk {

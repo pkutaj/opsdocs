@@ -1,8 +1,3 @@
----
-layout: post
-title:
-categories: []
----
 ## usecase
 The concern is documenting [24303](https://snowplow.zendesk.com/agent/tickets/24303) claiming the ES sink has been processing records from kinesis stream too slowly. 
 

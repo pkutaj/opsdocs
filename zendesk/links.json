@@ -3,7 +3,7 @@
     "ssl-certificates-and-collector": "https://support.snowplowanalytics.com/hc/en-us/articles/360016703297",
     "bump-elasticsearch": "https://support.snowplowanalytics.com/hc/en-us/articles/360016719917",
     "Sending-an-Image": "https://support.snowplowanalytics.com/hc/en-us/articles/360016743757",
-    "ES-nodes-and-shards-correlation": null
+    "ES-nodes-and-shards-correlation": "https://support.snowplowanalytics.com/hc/en-us/articles/360016825318"
   },
   "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((..\\/demo\\/ssl-certificates-and-collector)|(..\\/demo\\/bump-elasticsearch)|(..\\/demo\\/Sending-an-Image)|(..\\/demo\\/ES-nodes-and-shards-correlation))(\\.md)"
 }
