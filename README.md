@@ -31,4 +31,4 @@ Visualized, the process of creating and publishing a document looks roughly like
     * Creates proper links to static assets hosted on github (they are not pushed to zendesk)
     * For a writer, this should take also ~5 seconds
 
-![publish_a_document](./assets/readme01.gif)
+![publish_a_document](./assets/readme02.gif)
