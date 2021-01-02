@@ -17,7 +17,7 @@ Visualized, the process of creating and publishing a document looks roughly like
     * Updates the index in `config.yaml`, which is used later to maintain the state (diff between what's in ZD and REPO)
     * All of this should take ~5 seconds of the writer's time, without mouse
 
-![create_a_document](../assets/readme01.gif)
+![create_a_document](./assets/readme01.gif)
 
 ### 2. prod
 * This is where the KB is created 
@@ -31,4 +31,4 @@ Visualized, the process of creating and publishing a document looks roughly like
     * Creates proper links to static assets hosted on github (they are not pushed to zendesk)
     * For a writer, this should take also ~5 seconds
 
-![publish_a_document](../assets/readme01.gif)
+![publish_a_document](./assets/readme01.gif)
