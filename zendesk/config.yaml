@@ -17,13 +17,8 @@ sections:
     file: ../demo/Sending-an-Image.md
     hash: LrSuawWPdAMTF5riGV50v47iblXptWP5Ah0VcbEPU70=
     webLink: https://support.snowplowanalytics.com/hc/en-us/articles/360016743757
-  - id: 360016825318
+  - id:
     title: ES nodes and shards correlation
     file: ../demo/ES-nodes-and-shards-correlation.md
-    hash: 
-    webLink: 
-  - id: 
-    title: push]
-    file: ../demo/push].md
     hash: 
     webLink: 
