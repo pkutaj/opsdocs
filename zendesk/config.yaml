@@ -1,24 +1,24 @@
 sections:
-- name: Demo
-  id: 360004898138
-  articles:
-  - id: 360016703297
-    title: SSL Certificates and Collector
-    file: ../demo/ssl-certificates-and-collector.md
-    hash: Ns9cEfv2h6z3Xu6tte04WQYF+VQhtZcvAp9wIGVHVz4=
-    webLink: https://support.snowplowanalytics.com/hc/en-us/articles/360016703297
-  - id: 360016719917
-    title: Bump Elasticsearch
-    file: ../demo/bump-elasticsearch.md
-    hash: mByfqnhB+aGRibm0avitEg2mTqCNSKcbDv46oPLVudU=
-    webLink: https://support.snowplowanalytics.com/hc/en-us/articles/360016719917
-  - id: 360016743757
-    title: Sending an Image
-    file: ../demo/Sending-an-Image.md
-    hash: LrSuawWPdAMTF5riGV50v47iblXptWP5Ah0VcbEPU70=
-    webLink: https://support.snowplowanalytics.com/hc/en-us/articles/360016743757
-  - id: 
-    title: ES nodes and shards correlation
-    file: ../demo/ES-nodes-and-shards-correlation.md
-    hash: 
-    webLink: 
+  - name: Demo
+    id: 360004898138
+    articles:
+      - id: 360016703297
+        title: SSL Certificates and Collector
+        file: ../demo/ssl-certificates-and-collector.md
+        hash: Ns9cEfv2h6z3Xu6tte04WQYF+VQhtZcvAp9wIGVHVz4=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016703297'
+      - id: 360016719917
+        title: Bump Elasticsearch
+        file: ../demo/bump-elasticsearch.md
+        hash: mByfqnhB+aGRibm0avitEg2mTqCNSKcbDv46oPLVudU=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016719917'
+      - id: 360016743757
+        title: Sending an Image
+        file: ../demo/Sending-an-Image.md
+        hash: LrSuawWPdAMTF5riGV50v47iblXptWP5Ah0VcbEPU70=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016743757'
+      - id: 360016825318
+        title: ES nodes and shards correlation
+        file: ../demo/ES-nodes-and-shards-correlation.md
+        hash: VjUKkSOKhfzxESPqhtmjByCtz7upTZFtLkf6tS11Nrc=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016825318'
