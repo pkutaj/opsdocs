@@ -24,7 +24,7 @@ Visualized, the process of creating and publishing a document looks roughly like
 <!-- /TOC -->
 
 ### 1. pre-prod
-* Use Start Menu (Win) or Spotlight (Mac) to call `opsdocs` script which 
+* Use Start Menu (Win) or Spotlight (Mac) to call `parse-yaml` script (powershell at the moment) which 
     * Creates a new document in right folder
     * The new document is populated with a template — we are using single-template documentation
     * Updates the index in `config.yaml`, which is used later to maintain the state (diff between what's in ZD and REPO)

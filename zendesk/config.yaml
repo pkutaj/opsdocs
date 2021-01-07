@@ -17,8 +17,11 @@ sections:
         file: ../demo/Sending-an-Image.md
         hash: LrSuawWPdAMTF5riGV50v47iblXptWP5Ah0VcbEPU70=
         webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016743757'
+  - name: 54 ElasticSearch
+    id: 360004924518
+    articles:
       - id: 360016825358
-        title: ES nodes and shards correlation
-        file: ../demo/ES-nodes-and-shards-correlation.md
-        hash: KttBbD8kGOzIriy4SJTZNwMQnYJA4TQNGzTqvE6d1/Y=
+        title: 54.01 ES nodes and shards correlation
+        file: ../demo/54.01-ES-nodes-and-shards-correlation.md
+        hash: s83pPb15KXXZmufnwiuUCYNnfTzOePHOoZQMxoIz7cc=
         webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016825358'
