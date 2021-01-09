@@ -3,7 +3,7 @@
     "ssl-certificates-and-collector": "https://support.snowplowanalytics.com/hc/en-us/articles/360016703297",
     "bump-elasticsearch": "https://support.snowplowanalytics.com/hc/en-us/articles/360016719917",
     "Sending-an-Image": "https://support.snowplowanalytics.com/hc/en-us/articles/360016743757",
-    "50.01-Redshift-checking-health-status-in-general": null,
+    "50.01-Redshift-checking-health-status-in-general": "https://support.snowplowanalytics.com/hc/en-us/articles/360016902497",
     "54.01-ES-nodes-and-shards-correlation": "https://support.snowplowanalytics.com/hc/en-us/articles/360016825358",
     "21.01-Cookies-Set-by-Snowplow-Collector": "https://support.snowplowanalytics.com/hc/en-us/articles/360016902217"
   },
