@@ -28,8 +28,8 @@ sections:
   - name: 21 Collector
     id: 360004961638
     articles:
-      - id: 
+      - id: 360016902217
         title: 21.01 Cookies Set by Snowplow Collector
         file: ../demo/21.01-Cookies-Set-by-Snowplow-Collector.md
-        hash: 
-        webLink: 
+        hash: XLY0/tfaj8wdD/PNzSYFDU7dy1h0Zl2qtPEm/V8DQOU=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016902217'

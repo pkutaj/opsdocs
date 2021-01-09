@@ -3,7 +3,8 @@
     "ssl-certificates-and-collector": "https://support.snowplowanalytics.com/hc/en-us/articles/360016703297",
     "bump-elasticsearch": "https://support.snowplowanalytics.com/hc/en-us/articles/360016719917",
     "Sending-an-Image": "https://support.snowplowanalytics.com/hc/en-us/articles/360016743757",
-    "54.01-ES-nodes-and-shards-correlation": "https://support.snowplowanalytics.com/hc/en-us/articles/360016825358"
+    "54.01-ES-nodes-and-shards-correlation": "https://support.snowplowanalytics.com/hc/en-us/articles/360016825358",
+    "21.01-Cookies-Set-by-Snowplow-Collector": null
   },
-  "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((..\\/demo\\/ssl-certificates-and-collector)|(..\\/demo\\/bump-elasticsearch)|(..\\/demo\\/Sending-an-Image)|(..\\/demo\\/54.01-ES-nodes-and-shards-correlation))(\\.md)"
+  "linksRegexStr": "((\\.|\\.\\.)\\/)+((docs|guides|queries|dashboards)\\/)?((..\\/demo\\/ssl-certificates-and-collector)|(..\\/demo\\/bump-elasticsearch)|(..\\/demo\\/Sending-an-Image)|(..\\/demo\\/54.01-ES-nodes-and-shards-correlation)|(..\\/demo\\/21.01-Cookies-Set-by-Snowplow-Collector))(\\.md)"
 }
