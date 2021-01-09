@@ -20,11 +20,11 @@ sections:
   - name: 50 Redshift
     id: 360004955677
     articles:
-      - id: 
+      - id: 360016902497
         title: 50.01 Checking Redshift Health Status in General
         file: ../demo/50.01-Redshift-checking-health-status-in-general.md
-        hash: 
-        webLink: 
+        hash: +u6hqdLV4SFT32E0ImcoLxzcZASTmHZULTqAktgbnVA=
+        webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016902497'
   - name: 54 ElasticSearch
     id: 360004924518
     articles:
