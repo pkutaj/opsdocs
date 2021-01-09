@@ -17,6 +17,14 @@ sections:
         file: ../demo/Sending-an-Image.md
         hash: LrSuawWPdAMTF5riGV50v47iblXptWP5Ah0VcbEPU70=
         webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016743757'
+  - name: 50 Redshift
+    id: 360004955677
+    articles:
+      - id: 
+        title: 50.01 Checking Redshift Health Status in General
+        file: ../demo/50.01-Redshift-checking-health-status-in-general.md
+        hash: 
+        webLink: 
   - name: 54 ElasticSearch
     id: 360004924518
     articles:
@@ -31,5 +39,5 @@ sections:
       - id: 360016902217
         title: 21.01 Cookies Set by Snowplow Collector
         file: ../demo/21.01-Cookies-Set-by-Snowplow-Collector.md
-        hash: 32XaX/LlgWhKQTm0+NjPSeg54mJY7sm8wfsFtHghKm8=
+        hash: DgNULQIDtTRcfCeNqACymK6Pb7qlwyX3uzPG/PvP6ts=
         webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016902217'
