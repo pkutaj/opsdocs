@@ -23,5 +23,13 @@ sections:
       - id: 360016825358
         title: 54.01 ES nodes and shards correlation
         file: ../demo/54.01-ES-nodes-and-shards-correlation.md
-        hash: s83pPb15KXXZmufnwiuUCYNnfTzOePHOoZQMxoIz7cc=
+        hash: 0/uDZsiQS5a3S47MjnBq6RBLOnJpK2c46gGMUU407po=
         webLink: 'https://support.snowplowanalytics.com/hc/en-us/articles/360016825358'
+  - name: 21 Collector
+    id: 360004961638
+    articles:
+      - id: 
+        title: 21.01 Cookies Set by Snowplow Collector
+        file: ../demo/21.01-Cookies-Set-by-Snowplow-Collector.md
+        hash: 
+        webLink: 
